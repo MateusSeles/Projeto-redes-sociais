@@ -46,3 +46,25 @@ iframe#tela {
     height: 471px;
 }
 
+section#redes-sociais {
+    text-align: right;
+    padding-right: 60px;
+    padding-top: 80px;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;  /*Para ficar com os links redondos */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
+    box-sizing: border-box; /*Para que os links ganhem o hover individualmente. */
+
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-4px, -4px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.827);
+    transition: transform 1s; /*Para o link demorar 1 segundo para hovear */
+}
+
