@@ -16,6 +16,8 @@ body {
     background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    min-width: 350px;  /*responsividade */
+    max-width: 1700px;
 
 }
 
@@ -48,8 +50,7 @@ iframe#tela {
 
 section#redes-sociais {
     text-align: right;
-    padding-right: 60px;
-    padding-top: 80px;
+    min-width: auto;
 }
 
 section#redes-sociais img {
