@@ -16,13 +16,13 @@ body {
     background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 main {   /* Main ocupando a tela inteira */
     position: relative;
     height: 100vh; 
     position: relative;
+    width: 100vw;  /*teste responsivo*/
     
 }
 
@@ -36,7 +36,7 @@ section#telefone {
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
     margin: -20px;
-
+    min-width: 350px;   /*testando responsividade */
 }
 
 iframe#tela {
@@ -50,6 +50,8 @@ iframe#tela {
 section#redes-sociais {
     text-align: right;
     margin: 10px;
+    padding-left: 5px;   /*teste reponsividade */
+    padding-right: 10px; /*teste responsividade */
 }
 
 section#redes-sociais img {
